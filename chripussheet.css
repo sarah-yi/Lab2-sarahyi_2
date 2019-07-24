@@ -1,0 +1,202 @@
+body {
+  color: #69696a;
+  background-color: #f9fafc;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal, 800;
+}
+
+.navContainer {
+  display: flex;
+  align-items: left;
+  flex-flow: column;
+  height: 70px;
+}
+
+.navHeader {
+  display: flex;
+  margin-left: 3%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+
+ul.container li {
+  list-style-type: none;
+  margin: 3px;
+  margin-left: -5%;
+}
+
+.line {
+  border-right: 3px solid #69696a;
+  display: flex;
+  margin-right: 100%;
+  margin-top: -48%;
+  height: 180px;
+  opacity: 0.7;
+}
+
+.description {
+  display: flex;
+  font-size: 20px;
+  color: #000;
+  margin-left: 3%;
+  margin-top: 47%;
+  white-space: nowrap;
+}
+
+p {
+  display: flex;
+  font-size: 15px;
+  color: #69696a;
+  white-space: normal;
+  margin-top: 0%;
+  margin-left: 2%;
+  width: 60%;
+}
+
+.contactButton {
+  font-size: inherit;
+  background: #000;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 0%;
+}
+
+.scrollButton {
+  font-size: inherit;
+  background: #000;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  margin-top: 10%;
+  width: 100%;
+}
+
+@media only screen and (min-width:768px) {
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal, 800;
+    color: #69696a;
+    background-color: #f9fafc;
+    padding: 0 20px;
+  }
+  
+  ul.container li {
+    margin: auto 10px;
+  }
+  
+  .circleone {
+    padding: 18px;
+    width: 300px;
+    height: 300px;
+    background: rgba(247, 136, 167, 0.6);
+    border-color: rgba(247, 136, 167, 0.6);
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    opacity: 1.0;
+  }
+  
+  .circletwo {
+    padding: 18px;
+    width: 150px;
+    height: 150px;
+    background: rgba(207, 130, 213, 0.6);
+    border-color: rgba(207, 130, 213, 0.6);
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 85%;  
+    opacity: 1.0;
+  }
+  
+  .circlethree {
+    padding: 18px;
+    width: 180px;
+    height: 180px;
+    background: rgba(247, 193, 162, 0.7);
+    border-color: rgba(247, 193, 162, 0.7);
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    opacity: 1.0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60%;
+  }
+   
+  .line {
+    display: flex;
+    height: 148px;
+    margin-top: -10%;
+    margin-right: 100%;
+    opacity: 0.7;
+  }
+
+  
+  .description {
+    display: flex;
+    font-size: 20px;
+    color: #000;
+    margin-top: 10%;
+    margin-left: 0%;
+    width: 50%;
+  }
+  
+  .p {
+    display: flex;
+    font-size: 15px;
+    color: #69696a;
+    margin-top: -12%;
+    margin-left: 2%;
+    width: 50%;
+  }
+
+  .navContainer {
+    display: flex;
+    flex-flow: row;
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  .navHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    white-space: nowrap;
+    margin-left: 0%;
+  }
+
+  .contactButton {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    right: 0.5%;
+  }
+
+  .scrollButton {
+    cursor: pointer;
+    width: 150px;
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+}
+
+}
